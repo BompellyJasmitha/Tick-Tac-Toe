@@ -1,0 +1,73 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-image: url('https://images.unsplash.com/photo-1522742331380-2d7de6d3c920'); /* Replace with your desired background image URL */
+  background-size: cover;
+  background-position: center;
+}
+
+#box {
+  background: rgba(255, 255, 255, 0.9); /* White with transparency */
+  border-radius: 15px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+  width: 400px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+h2 {
+  color: #333;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+td {
+  width: 60px;
+  height: 60px;
+}
+
+button {
+  width: 100%;
+  height: 50px;
+  font-size: 24px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  margin:10px;
+}
+
+button:hover {
+  background-color: #45a049; 
+  transform: scale(1.05);
+}
+
+#result {
+  margin-top: 20px;
+}
+
+#box > div {
+  margin: 10px 0; 
+}
+
+button.start {
+  background-color: #007BFF; 
+}
+
+button.start:hover {
+  background-color: #0056b3; 
+}
